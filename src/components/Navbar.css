@@ -1,0 +1,18 @@
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 500;
+  display: inline-block;
+  margin-left: 4rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  color: #32cd32;
+}

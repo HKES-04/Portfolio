@@ -1,0 +1,51 @@
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.service {
+  margin-top: -20px;
+  margin-bottom: -7rem;
+}
+
+.service-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.service-section .service-box {
+  flex: 1 1 30rem;
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  background: linear-gradient(to bottom right, #111, #181818);
+  text-align: center;
+  border: 3px solid #000;
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.service-box:hover {
+  border: 2px solid #32cd32;
+  transform: scale(1.05) !important;
+  transition: transform 0.5s ease !important;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(50, 205, 50, 0.5);
+  background: linear-gradient(to bottom right, #222, #171717);
+}
+
+.service h2 {
+  margin-bottom: 5rem;
+}
+
+.service-box i {
+  font-size: 100px;
+  color: #18be18;
+}
+
+.service h3 {
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,37 @@
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.about-img img {
+  width: 35vw;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+.allheading {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.about-section h2 {
+  text-align: left;
+  line-height: 1.2;
+}
+
+.about-section h3 {
+  font-size: 2.6rem;
+}
+
+.about-section p {
+  font-size: 1.6rem;
+  margin: 2rem 0 3rem;
+  line-height: 2.5rem;
+  color: rgb(201, 201, 201);
+}
