@@ -1,7 +1,7 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { Slide } from "react-awesome-reveal";
 import "./Home.css";
-import { mainLogo } from "../assets";
+import { mainLogo, resume } from "../assets";
 
 function Home() {
   const [text] = useTypewriter({
@@ -45,7 +45,7 @@ function Home() {
             </a>
           </div>
           <button className="btn download">
-            <a href="../assets/Resume.docx (2).pdf" download>
+            <a href={resume} download>
               Download Resume
             </a>
           </button>
