@@ -1,7 +1,7 @@
-import ecommerce from "../../public/assets/ecommerce_screenshot.png";
-import gym from "../../public/assets/gym_screenshot.png";
-import bank from "../../public/assets/bank.png";
-import tindog from "../../public/assets/tindog.png";
+import ecommerce from "../assets/ecommerce_screenshot.png";
+import gym from "../assets/gym_screenshot.png";
+import bank from "../assets/bank.png";
+import tindog from "../assets/tindog.png";
 
 export const projectsData = [
   {
