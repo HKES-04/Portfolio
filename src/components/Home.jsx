@@ -45,7 +45,7 @@ function Home() {
             </a>
           </div>
           <button className="btn download">
-            <a href="../../public/assets/Resume.docx.pdf" download>
+            <a href="../assets/Resume.docx (2).pdf" download>
               Download Resume
             </a>
           </button>
