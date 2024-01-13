@@ -14,8 +14,8 @@ This portfolio website, crafted with React, serves as a dynamic introduction to 
 
 ### Links
 
-- Solution URL: (https://github.com/HKES-04/Dice-Game.git)
-- Live Site URL: (https://hkes-04.github.io/Dice-Game/)
+- Solution URL: (https://github.com/HKES-04/Portfolio/)
+- Live Site URL: (https://hussein-sultan.netlify.app/)
 
 ## My process
 
