@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import "./Header.css";
 import { useState } from "react";
+import { logo } from "../assets";
 
 function Header() {
   const [clicked, setClicked] = useState(false);
@@ -12,7 +13,7 @@ function Header() {
   return (
     <header className="header">
       <div className="hussein">
-        <img src="../public/assets/Web-Logo1.png" alt="HTML Icon" />
+        <img src={logo} alt="HTML Icon" />
         <a href="#" className="logo">
           Hussein.dev
         </a>

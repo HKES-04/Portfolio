@@ -1,10 +1,11 @@
+import { aboutImg } from "../assets";
 import "./About.css";
 
 function About() {
   return (
     <section className="about" id="about">
       <div data-aos="fade-right" data-aos-once="true" className="about-img">
-        <img src="./assets/header5.png" alt="Header Profile" />
+        <img src={aboutImg} alt="Header Profile" />
       </div>
       <div data-aos="fade-left" data-aos-once="true" className="about-section">
         <h2 className="allheading">

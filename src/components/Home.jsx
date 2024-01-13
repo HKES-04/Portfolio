@@ -1,6 +1,7 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { Slide } from "react-awesome-reveal";
 import "./Home.css";
+import { mainLogo } from "../assets";
 
 function Home() {
   const [text] = useTypewriter({
@@ -51,7 +52,7 @@ function Home() {
         </div>
       </Slide>
       <div className="home-img">
-        <img src="../public/assets/main-img1.png" alt="Computer Image" />
+        <img src={mainLogo} alt="Computer Image" />
       </div>
     </section>
   );
